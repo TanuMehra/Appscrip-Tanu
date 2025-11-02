@@ -1,0 +1,52 @@
+/* General layout */
+.main {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+.main h1 {
+  color: #007bff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.main p {
+  margin-bottom: 15px;
+}
+
+/* Media Query for tablets (max-width: 992px) */
+@media (max-width: 992px) {
+  .main {
+    max-width: 750px;
+    padding: 15px;
+  }
+
+  .main h1 {
+    font-size: 28px;
+  }
+
+  .main p {
+    font-size: 15px;
+  }
+}
+
+/* Media Query for mobile devices (max-width: 576px) */
+@media (max-width: 576px) {
+  .main {
+    max-width: 100%;
+    margin: 20px auto;
+    padding: 10px;
+  }
+
+  .main h1 {
+    font-size: 24px;
+  }
+
+  .main p {
+    font-size: 14px;
+  }
+}

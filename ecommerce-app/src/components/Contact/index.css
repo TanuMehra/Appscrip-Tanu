@@ -1,0 +1,52 @@
+/* General layout */
+.contactMain {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Heading */
+.contactMain h2 {
+  color: #007bff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Paragraph */
+.contactMain p {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .contactMain {
+    padding: 15px;
+  }
+
+  .contactMain h2 {
+    font-size: 24px;
+  }
+
+  .contactMain p {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 576px) {
+  .contactMain {
+    padding: 10px;
+  }
+
+  .contactMain h2 {
+    font-size: 20px;
+  }
+
+  .contactMain p {
+    font-size: 14px;
+  }
+}
